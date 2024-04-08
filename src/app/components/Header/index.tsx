@@ -23,7 +23,7 @@ function ResponsiveAppBar({ toggleMenu }: HeaderProps) {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters className="app-bar">
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box sx={{ flexGrow: 1, display: "flex" }}>
             <IconButton
               size="large"
               aria-label="account of current user"

@@ -4,7 +4,7 @@ import StickyHeadTable from "../../components/Table";
 
 export default function DataTablePage() {
   const { list, isLoading, fetchList } = UseTableData();
-  const [page, setpage] = useState(0);
+  const [page, setpage] = useState(1);
 
   useEffect(() => {
     fetchList(page);
